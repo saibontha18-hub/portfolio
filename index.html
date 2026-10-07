@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sai Bontha — Embedded Linux / Firmware Engineer | SAI // SYSTEM ONLINE</title>
+<meta name="description" content="Sai Bontha — Embedded Linux and Firmware Engineer. C/C++, device drivers, FreeRTOS, ARM, BSP. Explore Sai's engineering world: mission log, skill tree, system maps.">
+<meta name="keywords" content="Embedded Linux Engineer, Firmware Engineer, Embedded Systems Engineer, C/C++, FreeRTOS, ARM, Device Drivers, BSP, Sai Bontha">
+<meta name="author" content="Sai Bontha">
+<meta property="og:title" content="SAI // SYSTEM ONLINE — Sai Bontha, Embedded Linux / Firmware Engineer">
+<meta property="og:description" content="Enter Sai Bontha's engineering world. Embedded Linux, firmware, device drivers, RTOS, ARM.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/sai-hero.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23060812'/%3E%3Crect x='6' y='6' width='20' height='20' fill='none' stroke='%234dd8ff' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%234dd8ff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css?v=20261007c">
+</head>
+<body>
+<noscript><div class="noscript">SAI // SYSTEM ONLINE — This portfolio needs JavaScript for the cinematic intro. Content sections below remain readable.</div></noscript>
+
+<canvas id="env" aria-hidden="true"></canvas>
+
+<!-- ============ OPENING CINEMATIC ============ -->
+<div id="intro" role="region" aria-label="Opening cinematic">
+  <div id="boot-ui">
+    <div id="boot-lines" aria-live="polite"></div>
+    <button id="init-btn" class="sys-btn" type="button">[ INITIALIZE CONNECTION ]</button>
+  </div>
+  <button id="skip-intro" class="skip-link" type="button">SKIP INTRO &rarr;</button>
+  <div id="hero-stage" aria-hidden="true">
+    <div id="hero-scene">
+      <div id="hero-photo">
+        <img id="hero-img" src="assets/sai-hero.webp" alt="Sai Bontha">
+        <div id="hero-scan"></div>
+      </div>
+      <div id="hero-reflection" aria-hidden="true"><img src="assets/sai-hero.webp" alt=""></div>
+    </div>
+    <div id="hud-lines"></div>
+    <button id="enter-world" class="sys-btn enter" type="button" hidden>ENTER MY WORLD</button>
+  </div>
+</div>
+
+<!-- ============ MAIN WORLD ============ -->
+<div id="world">
+  <header id="topbar">
+    <div class="brand">SAI <span>//</span> SYSTEM ONLINE</div>
+    <nav id="mainnav" aria-label="Main navigation">
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-list" type="button">&#9776; MENU</button>
+      <ul id="nav-list">
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#missions">MISSIONS</a></li>
+        <li><a href="#skills">SKILL TREE</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#systemmap">SYSTEM MAP</a></li>
+        <li><a href="#dossier">DOSSIER</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <button id="sound-toggle" class="sound-btn" type="button" aria-pressed="true">SOUND: ON</button>
+  </header>
+
+  <main>
+    <section id="profile" class="panel" aria-labelledby="profile-h">
+      <p class="sec-tag">IDENTITY SYSTEM</p>
+      <h2 id="profile-h">PROFILE</h2>
+      <div class="profile-grid">
+        <div class="profile-portrait">
+          <img src="assets/sai-anime.webp" alt="Portrait of Sai Bontha">
+        </div>
+        <div class="profile-info">
+          <h3>SAI BONTHA</h3>
+          <p class="role">Embedded Linux / Firmware Engineer</p>
+          <p class="edu">M.S. Electrical &amp; Computer Engineering — Dec 2025, Youngstown State University</p>
+          <p class="tagline">&ldquo;Building reliable low-level software at the hardware/software boundary.&rdquo;</p>
+          <ul class="core-caps">
+            <li>C / C++</li><li>Embedded Linux</li><li>FreeRTOS</li><li>ARM</li>
+            <li>Device Drivers</li><li>System Integration</li>
+          </ul>
+          <div class="profile-links">
+            <a href="https://github.com/saibontha18-hub" target="_blank" rel="noopener">GITHUB</a>
+            <a href="https://www.linkedin.com/in/sai-bontha-199b41222" target="_blank" rel="noopener">LINKEDIN</a>
+            <a href="Sai_Bontha_Resume_OnePage.pdf" download>RESUME</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="missions" class="panel" aria-labelledby="missions-h">
+      <p class="sec-tag">EXPERIENCE // MISSION LOG</p>
+      <h2 id="missions-h">MISSION LOG</h2>
+      <article class="mission">
+        <header><span class="m-id">MISSION 01</span><span class="m-status">ACTIVE</span></header>
+        <h3>DELL TECHNOLOGIES</h3>
+        <p class="m-role">Embedded Software Engineer (Contract) — Jan 2026–Present · Austin, TX</p>
+        <p class="m-label">MISSION OBJECTIVE</p>
+        <p>Platform integration and automation for embedded systems — keeping complex hardware/software stacks healthy and debuggable.</p>
+        <p class="m-label">RESPONSIBILITIES</p>
+        <ul>
+          <li>Peripheral debugging across UART, SPI, and I2C interfaces</li>
+          <li>GDB and Linux-based diagnostics for system-level issues</li>
+          <li>Defect triage and root-cause analysis</li>
+          <li>Python and Bash test automation</li>
+        </ul>
+        <p class="m-label">TECHNOLOGIES</p>
+        <p class="techs">Embedded Linux · C · Python · Bash · GDB · UART · SPI · I2C · Test Automation</p>
+      </article>
+      <article class="mission">
+        <header><span class="m-id">MISSION 02</span><span class="m-status done">COMPLETED</span></header>
+        <h3>HCLTECH</h3>
+        <p class="m-role">Embedded Software Engineer — Jun 2021–Nov 2023 · Hyderabad, India</p>
+        <p class="m-label">MISSION OBJECTIVE</p>
+        <p>Low-level Linux and ARM development — bringing hardware up and keeping it running.</p>
+        <p class="m-label">RESPONSIBILITIES</p>
+        <ul>
+          <li>Linux device driver development</li>
+          <li>BSP and board bring-up</li>
+          <li>Hardware/software integration and debugging on ARM platforms</li>
+        </ul>
+        <p class="m-label">TECHNOLOGIES</p>
+        <p class="techs">Embedded Linux · C · ARM · Device Drivers · BSP · Board Bring-Up</p>
+      </article>
+    </section>
+
+    <section id="skills" class="panel" aria-labelledby="skills-h">
+      <p class="sec-tag">CAPABILITY MATRIX</p>
+      <h2 id="skills-h">SKILL TREE</h2>
+      <p class="hint">Select a node to inspect the system.</p>
+      <div id="skilltree-wrap">
+        <div class="svg-scroll"><svg id="skilltree" role="tree" aria-label="Engineering skill tree"></svg></div>
+        <aside id="skill-info" aria-live="polite"><p class="si-idle">— NODE INSPECTOR —<br>Select any node.</p></aside>
+      </div>
+    </section>
+
+    <section id="projects" class="panel" aria-labelledby="projects-h">
+      <p class="sec-tag">ENGINEERING MISSIONS</p>
+      <h2 id="projects-h">MISSION SELECT</h2>
+      <p class="hint">Open a mission briefing.</p>
+      <div id="mission-grid" class="mission-grid"></div>
+    </section>
+
+    <section id="systemmap" class="panel" aria-labelledby="systemmap-h">
+      <p class="sec-tag">DIAGNOSTIC CARTOGRAPHY</p>
+      <h2 id="systemmap-h">SYSTEM MAP</h2>
+      <div class="maps">
+        <div class="map-block">
+          <h3>EMBEDDED LINUX MAP</h3>
+          <svg id="linux-map" class="sysmap" role="img" aria-label="Embedded Linux architecture map"></svg>
+          <aside class="map-info" id="linux-info" aria-live="polite"><p>Select a layer.</p></aside>
+        </div>
+        <div class="map-block">
+          <h3>RTOS SYSTEM MAP</h3>
+          <svg id="rtos-map" class="sysmap" role="img" aria-label="RTOS architecture map"></svg>
+          <aside class="map-info" id="rtos-info" aria-live="polite"><p>Select a layer.</p></aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="opensource" class="panel" aria-labelledby="os-h">
+      <p class="sec-tag">UPSTREAM OPERATIONS</p>
+      <h2 id="os-h">OPEN SOURCE</h2>
+      <ul class="os-list">
+        <li><span class="os-status ok">APPROVED · AWAITING MERGE</span>
+          <a href="https://github.com/zephyrproject-rtos/zephyr/pull/121168" target="_blank" rel="noopener">zephyrproject-rtos/zephyr#121168</a>
+          <span class="os-desc">I2S configuration support — Zephyr RTOS</span></li>
+        <li><span class="os-status pend">OPEN · UNDER REVIEW</span>
+          <a href="https://github.com/j123b567/scpi-parser/pull/173" target="_blank" rel="noopener">j123b567/scpi-parser#173</a>
+          <span class="os-desc">Build-system fix for bare-metal toolchains</span></li>
+        <li><span class="os-status pend">UNDER REVIEW</span>
+          <a href="https://github.com/littlefs-project/littlefs/pull/1233" target="_blank" rel="noopener">littlefs-project/littlefs#1233</a>
+          <span class="os-desc">Filesystem robustness contribution</span></li>
+      </ul>
+    </section>
+
+    <section id="dossier" class="panel" aria-labelledby="dossier-h">
+      <p class="sec-tag">CLASSIFIED // FOR RECRUITERS</p>
+      <h2 id="dossier-h">ENGINEERING DOSSIER</h2>
+      <p class="dossier-sub">One page · Updated 2026</p>
+      <div class="dossier-btns">
+        <a class="sys-btn" href="Sai_Bontha_Resume_OnePage.pdf" target="_blank" rel="noopener">VIEW RESUME</a>
+        <a class="sys-btn" href="Sai_Bontha_Resume_OnePage.pdf" download>DOWNLOAD RESUME</a>
+      </div>
+    </section>
+
+    <section id="contact" class="panel" aria-labelledby="contact-h">
+      <p class="sec-tag">COMMUNICATION CHANNEL</p>
+      <h2 id="contact-h">ESTABLISH CONNECTION</h2>
+      <p class="contact-sub">Interested in embedded firmware, Linux, device drivers, and low-level systems engineering? Let's connect.</p>
+      <div class="contact-links">
+        <a class="sys-btn" href="mailto:saibontha18@gmail.com">EMAIL</a>
+        <a class="sys-btn" href="https://github.com/saibontha18-hub" target="_blank" rel="noopener">GITHUB</a>
+        <a class="sys-btn" href="https://www.linkedin.com/in/sai-bontha-199b41222" target="_blank" rel="noopener">LINKEDIN</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>SAI // SYSTEM ONLINE — Sai Bontha, Embedded Linux / Firmware Engineer · Austin, TX</p>
+  </footer>
+</div>
+
+<!-- mission briefing overlay -->
+<div id="briefing" hidden role="dialog" aria-modal="true" aria-labelledby="brief-title">
+  <div class="brief-box">
+    <button id="brief-close" class="skip-link" type="button" aria-label="Close briefing">&times; CLOSE</button>
+    <p class="sec-tag" id="brief-kicker">MISSION BRIEFING</p>
+    <h2 id="brief-title"></h2>
+    <p id="brief-status" class="os-status"></p>
+    <dl>
+      <div><dt>MISSION OBJECTIVE</dt><dd id="brief-objective"></dd></div>
+      <div><dt>ENGINEERING CHALLENGE</dt><dd id="brief-challenge"></dd></div>
+      <div><dt>SYSTEM ARCHITECTURE</dt><dd id="brief-arch"></dd></div>
+      <div><dt>IMPLEMENTATION</dt><dd id="brief-impl"></dd></div>
+      <div><dt>TECHNOLOGIES</dt><dd id="brief-techs"></dd></div>
+    </dl>
+    <a id="brief-github" class="sys-btn" href="#" target="_blank" rel="noopener">VIEW ON GITHUB</a>
+  </div>
+</div>
+
+<script src="cinematic.js?v=20261007c"></script>
+</body>
+</html>
